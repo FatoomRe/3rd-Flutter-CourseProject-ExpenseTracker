@@ -10,6 +10,8 @@ class ExpenseItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card();
+    return Card(
+      child: Text(expense.title),
+    );
   }
 }
